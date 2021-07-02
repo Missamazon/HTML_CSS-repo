@@ -1,0 +1,91 @@
+header {
+	
+	background-color: rgba(184,58,242,0.4); 
+	font-size: x-large;
+	position:relative;
+	padding: 20px ;
+    font-family: brush Script MT, cursive;
+	font-weight: bold;
+}
+h1{
+	font-size: 2em;
+    text-align: center;
+	
+}
+
+/*Configuration Navigateur*/
+.btn{
+	list-style-type: none;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.btn > li > a{
+	font-size: 1em;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	background-color: rgba(184,58,242,0.4);
+	border-radius: 10px;
+    padding: 1.5em;
+}
+.btn > li:hover a{
+	color: white;
+	background-color: rgba(77,8,89,1);
+	transition: 1.5s all;
+}
+/*Mise en forme globale de la page*/
+body{
+	background: url(fond.png) repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	font-family: cursive;
+	text-align: justify;
+    margin: 3em;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+    transition: 1s;
+}
+div.retour_TDM {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+.retour_TDM > a{
+    color: white;
+    background-color: blueviolet;
+    padding: 1em;
+    border-radius: 10px;
+
+}
+.retour_TDM > a:hover{
+    color: blueviolet;
+    background-color: white;
+}
+
+h2{
+    margin-left: 2em;
+    text-decoration: underline;
+
+}
+h3{
+    margin-left: 3em;
+    align-items: center;
+}
+h3::before{
+    content: url(https://raw.githubusercontent.com/afeld/emoji-css/gh-pages/emoji/bulb.png);
+}
+footer{
+    background-color: rgba(184,58,242,0.4); 
+	position:relative;
+	padding: 20px ;
+    font-family: brush Script MT;
+	font-weight: bold;
+}
