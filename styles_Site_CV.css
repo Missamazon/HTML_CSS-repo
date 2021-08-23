@@ -1,3 +1,4 @@
+
 header {
 	
 	background-color: rgba(184,58,242,0.4); 
@@ -36,9 +37,7 @@ h1{
 }
 /*Mise en forme globale de la page*/
 body{
-	background: url(fond.png) repeat;
-	background-size: 100%;
-	background-attachment: fixed;
+	background: radial-gradient(orange, rebeccapurple 60%);;
 	font-family: cursive;
 	text-align: justify;
     margin: 3em;
@@ -88,4 +87,43 @@ footer{
 	padding: 20px ;
     font-family: brush Script MT;
 	font-weight: bold;
+}
+@media screen and (min-width: 1156px) {
+
+	body{
+		background: url(fond.png) no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+		font-family: cursive;
+		text-align: justify;
+	}
+	nav.menu-nav ul li.btn{
+		list-style-type: none;
+		display: inline-block;
+	}
+	nav.menu-nav ul li.btn a{
+		font-size: large;
+		font-family: cursive;
+		font-weight: bold;
+		color: black;
+		text-decoration: none;
+		background-color: rgba(184,58,242,0.4);
+		border-radius: 10px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin: 5px;
+	}
+	div#content div{
+		display: inline-block;
+		width: 48%;
+		margin: 20px;
+	}
+
+	div#content.rightbox div{
+		display: inline-block;
+		width: 30%;
+		margin: 20px;
+}
 }
